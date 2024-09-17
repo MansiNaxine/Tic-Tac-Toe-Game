@@ -40,7 +40,8 @@ public class TicTacToeGameClass {
 			
 			
 		}
-
+		
+		printBoard(board);
 	}
 	
 	private static boolean haveWon(char[][] board, char player) {
